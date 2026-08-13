@@ -1,0 +1,1022 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\npm\bin\npm-cli.js
+1 info using npm@11.6.0
+2 info using node@v24.9.0
+3 silly config load:file:C:\Program Files\nodejs\node_modules\npm\npmrc
+4 silly config load:file:C:\Users\yello\Documents\New folder\server\.npmrc
+5 silly config load:file:C:\Users\yello\.npmrc
+6 silly config load:file:C:\Users\yello\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm install typescript@5.9.3
+8 verbose argv "install" "typescript@5.9.3" "--save-dev" "--cache" ".\\.npm-cache" "--prefer-online"
+9 verbose logfile logs-max:10 dir:C:\Users\yello\Documents\New folder\server\.npm-cache\_logs\2026-07-14T12_36_42_995Z-
+10 verbose logfile C:\Users\yello\Documents\New folder\server\.npm-cache\_logs\2026-07-14T12_36_42_995Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:2348810240 maxSize:587202560 maxEntrySize:293601280
+13 silly idealTree buildDeps
+14 silly fetch manifest typescript@5.9.3
+15 silly packumentCache full:https://registry.npmjs.org/typescript cache-miss
+16 http fetch GET 200 https://registry.npmjs.org/typescript 1101ms (cache miss)
+17 silly packumentCache full:https://registry.npmjs.org/typescript set size:undefined disposed:false
+18 silly placeDep ROOT typescript@5.9.3 REPLACE for: server@1.0.0 want: 5.9.3
+19 silly reify mark retired [
+19 silly reify   'C:\\Users\\yello\\Documents\\New folder\\server\\node_modules\\fsevents'
+19 silly reify ]
+20 silly reify mark retired [
+20 silly reify   'C:\\Users\\yello\\Documents\\New folder\\server\\node_modules\\lodash'
+20 silly reify ]
+21 silly reify mark retired [
+21 silly reify   'C:\\Users\\yello\\Documents\\New folder\\server\\node_modules\\mongodb'
+21 silly reify ]
+22 silly reify mark retired [
+22 silly reify   'C:\\Users\\yello\\Documents\\New folder\\server\\node_modules\\mongoose'
+22 silly reify ]
+23 silly reify mark retired [
+23 silly reify   'C:\\Users\\yello\\Documents\\New folder\\server\\node_modules\\typescript'
+23 silly reify ]
+24 silly reify mark retired [
+24 silly reify   'C:\\Users\\yello\\Documents\\New folder\\server\\node_modules\\zod'
+24 silly reify ]
+25 silly reify mark retired [
+25 silly reify   'C:\\Users\\yello\\Documents\\New folder\\server\\node_modules\\@esbuild\\aix-ppc64'
+25 silly reify ]
+26 silly reify mark retired [
+26 silly reify   'C:\\Users\\yello\\Documents\\New folder\\server\\node_modules\\@esbuild\\android-arm'
+26 silly reify ]
+27 silly reify mark retired [
+27 silly reify   'C:\\Users\\yello\\Documents\\New folder\\server\\node_modules\\@esbuild\\android-arm64'
+27 silly reify ]
+28 silly reify mark retired [
+28 silly reify   'C:\\Users\\yello\\Documents\\New folder\\server\\node_modules\\@esbuild\\android-x64'
+28 silly reify ]
+29 silly reify mark retired [
+29 silly reify   'C:\\Users\\yello\\Documents\\New folder\\server\\node_modules\\@esbuild\\darwin-arm64'
+29 silly reify ]
+30 silly reify mark retired [
+30 silly reify   'C:\\Users\\yello\\Documents\\New folder\\server\\node_modules\\@esbuild\\darwin-x64'
+30 silly reify ]
+31 silly reify mark retired [
+31 silly reify   'C:\\Users\\yello\\Documents\\New folder\\server\\node_modules\\@esbuild\\freebsd-arm64'
+31 silly reify ]
+32 silly reify mark retired [
+32 silly reify   'C:\\Users\\yello\\Documents\\New folder\\server\\node_modules\\@esbuild\\freebsd-x64'
+32 silly reify ]
+33 silly reify mark retired [
+33 silly reify   'C:\\Users\\yello\\Documents\\New folder\\server\\node_modules\\@esbuild\\linux-arm'
+33 silly reify ]
+34 silly reify mark retired [
+34 silly reify   'C:\\Users\\yello\\Documents\\New folder\\server\\node_modules\\@esbuild\\linux-arm64'
+34 silly reify ]
+35 silly reify mark retired [
+35 silly reify   'C:\\Users\\yello\\Documents\\New folder\\server\\node_modules\\@esbuild\\linux-ia32'
+35 silly reify ]
+36 silly reify mark retired [
+36 silly reify   'C:\\Users\\yello\\Documents\\New folder\\server\\node_modules\\@esbuild\\linux-loong64'
+36 silly reify ]
+37 silly reify mark retired [
+37 silly reify   'C:\\Users\\yello\\Documents\\New folder\\server\\node_modules\\@esbuild\\linux-mips64el'
+37 silly reify ]
+38 silly reify mark retired [
+38 silly reify   'C:\\Users\\yello\\Documents\\New folder\\server\\node_modules\\@esbuild\\linux-ppc64'
+38 silly reify ]
+39 silly reify mark retired [
+39 silly reify   'C:\\Users\\yello\\Documents\\New folder\\server\\node_modules\\@esbuild\\linux-riscv64'
+39 silly reify ]
+40 silly reify mark retired [
+40 silly reify   'C:\\Users\\yello\\Documents\\New folder\\server\\node_modules\\@esbuild\\linux-s390x'
+40 silly reify ]
+41 silly reify mark retired [
+41 silly reify   'C:\\Users\\yello\\Documents\\New folder\\server\\node_modules\\@esbuild\\linux-x64'
+41 silly reify ]
+42 silly reify mark retired [
+42 silly reify   'C:\\Users\\yello\\Documents\\New folder\\server\\node_modules\\@esbuild\\netbsd-arm64'
+42 silly reify ]
+43 silly reify mark retired [
+43 silly reify   'C:\\Users\\yello\\Documents\\New folder\\server\\node_modules\\@esbuild\\netbsd-x64'
+43 silly reify ]
+44 silly reify mark retired [
+44 silly reify   'C:\\Users\\yello\\Documents\\New folder\\server\\node_modules\\@esbuild\\openbsd-arm64'
+44 silly reify ]
+45 silly reify mark retired [
+45 silly reify   'C:\\Users\\yello\\Documents\\New folder\\server\\node_modules\\@esbuild\\openbsd-x64'
+45 silly reify ]
+46 silly reify mark retired [
+46 silly reify   'C:\\Users\\yello\\Documents\\New folder\\server\\node_modules\\@esbuild\\openharmony-arm64'
+46 silly reify ]
+47 silly reify mark retired [
+47 silly reify   'C:\\Users\\yello\\Documents\\New folder\\server\\node_modules\\@esbuild\\sunos-x64'
+47 silly reify ]
+48 silly reify mark retired [
+48 silly reify   'C:\\Users\\yello\\Documents\\New folder\\server\\node_modules\\@esbuild\\win32-arm64'
+48 silly reify ]
+49 silly reify mark retired [
+49 silly reify   'C:\\Users\\yello\\Documents\\New folder\\server\\node_modules\\@esbuild\\win32-ia32'
+49 silly reify ]
+50 silly reify mark retired [
+50 silly reify   'C:\\Users\\yello\\Documents\\New folder\\server\\node_modules\\@esbuild\\win32-x64'
+50 silly reify ]
+51 silly reify mark retired [
+51 silly reify   'C:\\Users\\yello\\Documents\\New folder\\server\\node_modules\\esbuild',
+51 silly reify   'C:\\Users\\yello\\Documents\\New folder\\server\\node_modules\\.bin\\esbuild',
+51 silly reify   'C:\\Users\\yello\\Documents\\New folder\\server\\node_modules\\.bin\\esbuild.cmd',
+51 silly reify   'C:\\Users\\yello\\Documents\\New folder\\server\\node_modules\\.bin\\esbuild.ps1'
+51 silly reify ]
+52 silly reify mark retired [
+52 silly reify   'C:\\Users\\yello\\Documents\\New folder\\server\\node_modules\\nodemon',
+52 silly reify   'C:\\Users\\yello\\Documents\\New folder\\server\\node_modules\\.bin\\nodemon',
+52 silly reify   'C:\\Users\\yello\\Documents\\New folder\\server\\node_modules\\.bin\\nodemon.cmd',
+52 silly reify   'C:\\Users\\yello\\Documents\\New folder\\server\\node_modules\\.bin\\nodemon.ps1'
+52 silly reify ]
+53 silly reify mark retired [
+53 silly reify   'C:\\Users\\yello\\Documents\\New folder\\server\\node_modules\\semver',
+53 silly reify   'C:\\Users\\yello\\Documents\\New folder\\server\\node_modules\\.bin\\semver',
+53 silly reify   'C:\\Users\\yello\\Documents\\New folder\\server\\node_modules\\.bin\\semver.cmd',
+53 silly reify   'C:\\Users\\yello\\Documents\\New folder\\server\\node_modules\\.bin\\semver.ps1'
+53 silly reify ]
+54 silly reify mark retired [
+54 silly reify   'C:\\Users\\yello\\Documents\\New folder\\server\\node_modules\\touch',
+54 silly reify   'C:\\Users\\yello\\Documents\\New folder\\server\\node_modules\\.bin\\nodetouch',
+54 silly reify   'C:\\Users\\yello\\Documents\\New folder\\server\\node_modules\\.bin\\nodetouch.cmd',
+54 silly reify   'C:\\Users\\yello\\Documents\\New folder\\server\\node_modules\\.bin\\nodetouch.ps1'
+54 silly reify ]
+55 silly reify mark retired [
+55 silly reify   'C:\\Users\\yello\\Documents\\New folder\\server\\node_modules\\tsx',
+55 silly reify   'C:\\Users\\yello\\Documents\\New folder\\server\\node_modules\\.bin\\tsx',
+55 silly reify   'C:\\Users\\yello\\Documents\\New folder\\server\\node_modules\\.bin\\tsx.cmd',
+55 silly reify   'C:\\Users\\yello\\Documents\\New folder\\server\\node_modules\\.bin\\tsx.ps1'
+55 silly reify ]
+56 silly reify moves {
+56 silly reify   'C:\\Users\\yello\\Documents\\New folder\\server\\node_modules\\fsevents': 'C:\\Users\\yello\\Documents\\New folder\\server\\node_modules\\.fsevents-E2Se26eP',
+56 silly reify   'C:\\Users\\yello\\Documents\\New folder\\server\\node_modules\\lodash': 'C:\\Users\\yello\\Documents\\New folder\\server\\node_modules\\.lodash-zw9wwy68',
+56 silly reify   'C:\\Users\\yello\\Documents\\New folder\\server\\node_modules\\mongodb': 'C:\\Users\\yello\\Documents\\New folder\\server\\node_modules\\.mongodb-x3UggPNK',
+56 silly reify   'C:\\Users\\yello\\Documents\\New folder\\server\\node_modules\\mongoose': 'C:\\Users\\yello\\Documents\\New folder\\server\\node_modules\\.mongoose-aHoacCjZ',
+56 silly reify   'C:\\Users\\yello\\Documents\\New folder\\server\\node_modules\\typescript': 'C:\\Users\\yello\\Documents\\New folder\\server\\node_modules\\.typescript-IFjSfXXz',
+56 silly reify   'C:\\Users\\yello\\Documents\\New folder\\server\\node_modules\\zod': 'C:\\Users\\yello\\Documents\\New folder\\server\\node_modules\\.zod-faXtF1BS',
+56 silly reify   'C:\\Users\\yello\\Documents\\New folder\\server\\node_modules\\@esbuild\\aix-ppc64': 'C:\\Users\\yello\\Documents\\New folder\\server\\node_modules\\@esbuild\\.aix-ppc64-MPjKkXgg',
+56 silly reify   'C:\\Users\\yello\\Documents\\New folder\\server\\node_modules\\@esbuild\\android-arm': 'C:\\Users\\yello\\Documents\\New folder\\server\\node_modules\\@esbuild\\.android-arm-HIqw8Qgi',
+56 silly reify   'C:\\Users\\yello\\Documents\\New folder\\server\\node_modules\\@esbuild\\android-arm64': 'C:\\Users\\yello\\Documents\\New folder\\server\\node_modules\\@esbuild\\.android-arm64-35rwS55u',
+56 silly reify   'C:\\Users\\yello\\Documents\\New folder\\server\\node_modules\\@esbuild\\android-x64': 'C:\\Users\\yello\\Documents\\New folder\\server\\node_modules\\@esbuild\\.android-x64-dtOAiL48',
+56 silly reify   'C:\\Users\\yello\\Documents\\New folder\\server\\node_modules\\@esbuild\\darwin-arm64': 'C:\\Users\\yello\\Documents\\New folder\\server\\node_modules\\@esbuild\\.darwin-arm64-zyxXB8xs',
+56 silly reify   'C:\\Users\\yello\\Documents\\New folder\\server\\node_modules\\@esbuild\\darwin-x64': 'C:\\Users\\yello\\Documents\\New folder\\server\\node_modules\\@esbuild\\.darwin-x64-mCtRyRwW',
+56 silly reify   'C:\\Users\\yello\\Documents\\New folder\\server\\node_modules\\@esbuild\\freebsd-arm64': 'C:\\Users\\yello\\Documents\\New folder\\server\\node_modules\\@esbuild\\.freebsd-arm64-HDbLSyPG',
+56 silly reify   'C:\\Users\\yello\\Documents\\New folder\\server\\node_modules\\@esbuild\\freebsd-x64': 'C:\\Users\\yello\\Documents\\New folder\\server\\node_modules\\@esbuild\\.freebsd-x64-imGr9T9t',
+56 silly reify   'C:\\Users\\yello\\Documents\\New folder\\server\\node_modules\\@esbuild\\linux-arm': 'C:\\Users\\yello\\Documents\\New folder\\server\\node_modules\\@esbuild\\.linux-arm-qC3x2ClW',
+56 silly reify   'C:\\Users\\yello\\Documents\\New folder\\server\\node_modules\\@esbuild\\linux-arm64': 'C:\\Users\\yello\\Documents\\New folder\\server\\node_modules\\@esbuild\\.linux-arm64-XB66BPc1',
+56 silly reify   'C:\\Users\\yello\\Documents\\New folder\\server\\node_modules\\@esbuild\\linux-ia32': 'C:\\Users\\yello\\Documents\\New folder\\server\\node_modules\\@esbuild\\.linux-ia32-hfuaPMOq',
+56 silly reify   'C:\\Users\\yello\\Documents\\New folder\\server\\node_modules\\@esbuild\\linux-loong64': 'C:\\Users\\yello\\Documents\\New folder\\server\\node_modules\\@esbuild\\.linux-loong64-EsBVokoo',
+56 silly reify   'C:\\Users\\yello\\Documents\\New folder\\server\\node_modules\\@esbuild\\linux-mips64el': 'C:\\Users\\yello\\Documents\\New folder\\server\\node_modules\\@esbuild\\.linux-mips64el-lSdsJ2C1',
+56 silly reify   'C:\\Users\\yello\\Documents\\New folder\\server\\node_modules\\@esbuild\\linux-ppc64': 'C:\\Users\\yello\\Documents\\New folder\\server\\node_modules\\@esbuild\\.linux-ppc64-DXUiCqlM',
+56 silly reify   'C:\\Users\\yello\\Documents\\New folder\\server\\node_modules\\@esbuild\\linux-riscv64': 'C:\\Users\\yello\\Documents\\New folder\\server\\node_modules\\@esbuild\\.linux-riscv64-OKtYU6Db',
+56 silly reify   'C:\\Users\\yello\\Documents\\New folder\\server\\node_modules\\@esbuild\\linux-s390x': 'C:\\Users\\yello\\Documents\\New folder\\server\\node_modules\\@esbuild\\.linux-s390x-hy6hz9KJ',
+56 silly reify   'C:\\Users\\yello\\Documents\\New folder\\server\\node_modules\\@esbuild\\linux-x64': 'C:\\Users\\yello\\Documents\\New folder\\server\\node_modules\\@esbuild\\.linux-x64-mZp66neL',
+56 silly reify   'C:\\Users\\yello\\Documents\\New folder\\server\\node_modules\\@esbuild\\netbsd-arm64': 'C:\\Users\\yello\\Documents\\New folder\\server\\node_modules\\@esbuild\\.netbsd-arm64-kuYZ6iaP',
+56 silly reify   'C:\\Users\\yello\\Documents\\New folder\\server\\node_modules\\@esbuild\\netbsd-x64': 'C:\\Users\\yello\\Documents\\New folder\\server\\node_modules\\@esbuild\\.netbsd-x64-mMulngZl',
+56 silly reify   'C:\\Users\\yello\\Documents\\New folder\\server\\node_modules\\@esbuild\\openbsd-arm64': 'C:\\Users\\yello\\Documents\\New folder\\server\\node_modules\\@esbuild\\.openbsd-arm64-HHWzUBFt',
+56 silly reify   'C:\\Users\\yello\\Documents\\New folder\\server\\node_modules\\@esbuild\\openbsd-x64': 'C:\\Users\\yello\\Documents\\New folder\\server\\node_modules\\@esbuild\\.openbsd-x64-bTJH4Z4i',
+56 silly reify   'C:\\Users\\yello\\Documents\\New folder\\server\\node_modules\\@esbuild\\openharmony-arm64': 'C:\\Users\\yello\\Documents\\New folder\\server\\node_modules\\@esbuild\\.openharmony-arm64-amshkUAZ',
+56 silly reify   'C:\\Users\\yello\\Documents\\New folder\\server\\node_modules\\@esbuild\\sunos-x64': 'C:\\Users\\yello\\Documents\\New folder\\server\\node_modules\\@esbuild\\.sunos-x64-FevC2gmM',
+56 silly reify   'C:\\Users\\yello\\Documents\\New folder\\server\\node_modules\\@esbuild\\win32-arm64': 'C:\\Users\\yello\\Documents\\New folder\\server\\node_modules\\@esbuild\\.win32-arm64-Wrv0HJoZ',
+56 silly reify   'C:\\Users\\yello\\Documents\\New folder\\server\\node_modules\\@esbuild\\win32-ia32': 'C:\\Users\\yello\\Documents\\New folder\\server\\node_modules\\@esbuild\\.win32-ia32-2QpNLRza',
+56 silly reify   'C:\\Users\\yello\\Documents\\New folder\\server\\node_modules\\@esbuild\\win32-x64': 'C:\\Users\\yello\\Documents\\New folder\\server\\node_modules\\@esbuild\\.win32-x64-XkoWpxkI',
+56 silly reify   'C:\\Users\\yello\\Documents\\New folder\\server\\node_modules\\esbuild': 'C:\\Users\\yello\\Documents\\New folder\\server\\node_modules\\.esbuild-uDRMeOZp',
+56 silly reify   'C:\\Users\\yello\\Documents\\New folder\\server\\node_modules\\.bin\\esbuild': 'C:\\Users\\yello\\Documents\\New folder\\server\\node_modules\\.bin\\.esbuild-2GXsdpVc',
+56 silly reify   'C:\\Users\\yello\\Documents\\New folder\\server\\node_modules\\.bin\\esbuild.cmd': 'C:\\Users\\yello\\Documents\\New folder\\server\\node_modules\\.bin\\.esbuild.cmd-YRs9s8Ru',
+56 silly reify   'C:\\Users\\yello\\Documents\\New folder\\server\\node_modules\\.bin\\esbuild.ps1': 'C:\\Users\\yello\\Documents\\New folder\\server\\node_modules\\.bin\\.esbuild.ps1-3achtuqf',
+56 silly reify   'C:\\Users\\yello\\Documents\\New folder\\server\\node_modules\\nodemon': 'C:\\Users\\yello\\Documents\\New folder\\server\\node_modules\\.nodemon-z0M89V6n',
+56 silly reify   'C:\\Users\\yello\\Documents\\New folder\\server\\node_modules\\.bin\\nodemon': 'C:\\Users\\yello\\Documents\\New folder\\server\\node_modules\\.bin\\.nodemon-nG3u2kg4',
+56 silly reify   'C:\\Users\\yello\\Documents\\New folder\\server\\node_modules\\.bin\\nodemon.cmd': 'C:\\Users\\yello\\Documents\\New folder\\server\\node_modules\\.bin\\.nodemon.cmd-FGOJLtT8',
+56 silly reify   'C:\\Users\\yello\\Documents\\New folder\\server\\node_modules\\.bin\\nodemon.ps1': 'C:\\Users\\yello\\Documents\\New folder\\server\\node_modules\\.bin\\.nodemon.ps1-6V7EjMqR',
+56 silly reify   'C:\\Users\\yello\\Documents\\New folder\\server\\node_modules\\semver': 'C:\\Users\\yello\\Documents\\New folder\\server\\node_modules\\.semver-ExXk9fs9',
+56 silly reify   'C:\\Users\\yello\\Documents\\New folder\\server\\node_modules\\.bin\\semver': 'C:\\Users\\yello\\Documents\\New folder\\server\\node_modules\\.bin\\.semver-agKglHPR',
+56 silly reify   'C:\\Users\\yello\\Documents\\New folder\\server\\node_modules\\.bin\\semver.cmd': 'C:\\Users\\yello\\Documents\\New folder\\server\\node_modules\\.bin\\.semver.cmd-BCjZm9mT',
+56 silly reify   'C:\\Users\\yello\\Documents\\New folder\\server\\node_modules\\.bin\\semver.ps1': 'C:\\Users\\yello\\Documents\\New folder\\server\\node_modules\\.bin\\.semver.ps1-D9JtGjiU',
+56 silly reify   'C:\\Users\\yello\\Documents\\New folder\\server\\node_modules\\touch': 'C:\\Users\\yello\\Documents\\New folder\\server\\node_modules\\.touch-dEnAEE6v',
+56 silly reify   'C:\\Users\\yello\\Documents\\New folder\\server\\node_modules\\.bin\\nodetouch': 'C:\\Users\\yello\\Documents\\New folder\\server\\node_modules\\.bin\\.nodetouch-mwEGwaU3',
+56 silly reify   'C:\\Users\\yello\\Documents\\New folder\\server\\node_modules\\.bin\\nodetouch.cmd': 'C:\\Users\\yello\\Documents\\New folder\\server\\node_modules\\.bin\\.nodetouch.cmd-5Y9hz2p3',
+56 silly reify   'C:\\Users\\yello\\Documents\\New folder\\server\\node_modules\\.bin\\nodetouch.ps1': 'C:\\Users\\yello\\Documents\\New folder\\server\\node_modules\\.bin\\.nodetouch.ps1-EdBpJeEl',
+56 silly reify   'C:\\Users\\yello\\Documents\\New folder\\server\\node_modules\\tsx': 'C:\\Users\\yello\\Documents\\New folder\\server\\node_modules\\.tsx-B8MBhDxa',
+56 silly reify   'C:\\Users\\yello\\Documents\\New folder\\server\\node_modules\\.bin\\tsx': 'C:\\Users\\yello\\Documents\\New folder\\server\\node_modules\\.bin\\.tsx-EnSIEcmf',
+56 silly reify   'C:\\Users\\yello\\Documents\\New folder\\server\\node_modules\\.bin\\tsx.cmd': 'C:\\Users\\yello\\Documents\\New folder\\server\\node_modules\\.bin\\.tsx.cmd-F18hN8oJ',
+56 silly reify   'C:\\Users\\yello\\Documents\\New folder\\server\\node_modules\\.bin\\tsx.ps1': 'C:\\Users\\yello\\Documents\\New folder\\server\\node_modules\\.bin\\.tsx.ps1-APm3P2eF'
+56 silly reify }
+57 silly audit bulk request {
+57 silly audit   '@clerk/backend': [ '3.2.2' ],
+57 silly audit   '@clerk/express': [ '2.0.6' ],
+57 silly audit   '@clerk/shared': [ '4.3.2' ],
+57 silly audit   '@esbuild/aix-ppc64': [ '0.27.4' ],
+57 silly audit   '@esbuild/android-arm': [ '0.27.4' ],
+57 silly audit   '@esbuild/android-arm64': [ '0.27.4' ],
+57 silly audit   '@esbuild/android-x64': [ '0.27.4' ],
+57 silly audit   '@esbuild/darwin-arm64': [ '0.27.4' ],
+57 silly audit   '@esbuild/darwin-x64': [ '0.27.4' ],
+57 silly audit   '@esbuild/freebsd-arm64': [ '0.27.4' ],
+57 silly audit   '@esbuild/freebsd-x64': [ '0.27.4' ],
+57 silly audit   '@esbuild/linux-arm': [ '0.27.4' ],
+57 silly audit   '@esbuild/linux-arm64': [ '0.27.4' ],
+57 silly audit   '@esbuild/linux-ia32': [ '0.27.4' ],
+57 silly audit   '@esbuild/linux-loong64': [ '0.27.4' ],
+57 silly audit   '@esbuild/linux-mips64el': [ '0.27.4' ],
+57 silly audit   '@esbuild/linux-ppc64': [ '0.27.4' ],
+57 silly audit   '@esbuild/linux-riscv64': [ '0.27.4' ],
+57 silly audit   '@esbuild/linux-s390x': [ '0.27.4' ],
+57 silly audit   '@esbuild/linux-x64': [ '0.27.4' ],
+57 silly audit   '@esbuild/netbsd-arm64': [ '0.27.4' ],
+57 silly audit   '@esbuild/netbsd-x64': [ '0.27.4' ],
+57 silly audit   '@esbuild/openbsd-arm64': [ '0.27.4' ],
+57 silly audit   '@esbuild/openbsd-x64': [ '0.27.4' ],
+57 silly audit   '@esbuild/openharmony-arm64': [ '0.27.4' ],
+57 silly audit   '@esbuild/sunos-x64': [ '0.27.4' ],
+57 silly audit   '@esbuild/win32-arm64': [ '0.27.4' ],
+57 silly audit   '@esbuild/win32-ia32': [ '0.27.4' ],
+57 silly audit   '@esbuild/win32-x64': [ '0.27.4' ],
+57 silly audit   '@mongodb-js/saslprep': [ '1.4.6' ],
+57 silly audit   '@stablelib/base64': [ '1.0.1' ],
+57 silly audit   '@tanstack/query-core': [ '5.90.16' ],
+57 silly audit   '@types/body-parser': [ '1.19.6' ],
+57 silly audit   '@types/connect': [ '3.4.38' ],
+57 silly audit   '@types/cors': [ '2.8.19' ],
+57 silly audit   '@types/express': [ '5.0.6' ],
+57 silly audit   '@types/express-serve-static-core': [ '5.1.1' ],
+57 silly audit   '@types/http-errors': [ '2.0.5' ],
+57 silly audit   '@types/morgan': [ '1.9.10' ],
+57 silly audit   '@types/multer': [ '2.1.0' ],
+57 silly audit   '@types/node': [ '25.5.0' ],
+57 silly audit   '@types/qs': [ '6.15.0' ],
+57 silly audit   '@types/range-parser': [ '1.2.7' ],
+57 silly audit   '@types/send': [ '1.2.1' ],
+57 silly audit   '@types/serve-static': [ '2.2.0' ],
+57 silly audit   '@types/streamifier': [ '0.1.2' ],
+57 silly audit   '@types/webidl-conversions': [ '7.0.3' ],
+57 silly audit   '@types/whatwg-url': [ '13.0.0' ],
+57 silly audit   accepts: [ '2.0.0' ],
+57 silly audit   anymatch: [ '3.1.3' ],
+57 silly audit   'append-field': [ '1.0.0' ],
+57 silly audit   asynckit: [ '0.4.0' ],
+57 silly audit   axios: [ '1.14.0' ],
+57 silly audit   'balanced-match': [ '4.0.4' ],
+57 silly audit   'basic-auth': [ '2.0.1' ],
+57 silly audit   'binary-extensions': [ '2.3.0' ],
+57 silly audit   'body-parser': [ '2.2.2' ],
+57 silly audit   'brace-expansion': [ '5.0.5' ],
+57 silly audit   braces: [ '3.0.3' ],
+57 silly audit   bson: [ '7.2.0' ],
+57 silly audit   'buffer-from': [ '1.1.2' ],
+57 silly audit   busboy: [ '1.6.0' ],
+57 silly audit   bytes: [ '3.1.2' ],
+57 silly audit   'call-bind-apply-helpers': [ '1.0.2' ],
+57 silly audit   'call-bound': [ '1.0.4' ],
+57 silly audit   chokidar: [ '3.6.0' ],
+57 silly audit   cloudinary: [ '2.9.0' ],
+57 silly audit   'combined-stream': [ '1.0.8' ],
+57 silly audit   'concat-stream': [ '2.0.0' ],
+57 silly audit   'content-disposition': [ '1.0.1' ],
+57 silly audit   'content-type': [ '1.0.5' ],
+57 silly audit   cookie: [ '0.7.2' ],
+57 silly audit   'cookie-signature': [ '1.2.2' ],
+57 silly audit   cors: [ '2.8.6' ],
+57 silly audit   debug: [ '4.4.3', '2.6.9' ],
+57 silly audit   'delayed-stream': [ '1.0.0' ],
+57 silly audit   depd: [ '2.0.0' ],
+57 silly audit   dequal: [ '2.0.3' ],
+57 silly audit   dotenv: [ '17.3.1' ],
+57 silly audit   'dunder-proto': [ '1.0.1' ],
+57 silly audit   'ee-first': [ '1.1.1' ],
+57 silly audit   encodeurl: [ '2.0.0' ],
+57 silly audit   'es-define-property': [ '1.0.1' ],
+57 silly audit   'es-errors': [ '1.3.0' ],
+57 silly audit   'es-object-atoms': [ '1.1.1' ],
+57 silly audit   'es-set-tostringtag': [ '2.1.0' ],
+57 silly audit   esbuild: [ '0.27.4' ],
+57 silly audit   'escape-html': [ '1.0.3' ],
+57 silly audit   etag: [ '1.8.1' ],
+57 silly audit   express: [ '5.2.1' ],
+57 silly audit   'fast-sha256': [ '1.3.0' ],
+57 silly audit   'fill-range': [ '7.1.1' ],
+57 silly audit   finalhandler: [ '2.1.1' ],
+57 silly audit   'follow-redirects': [ '1.15.11' ],
+57 silly audit   'form-data': [ '4.0.5' ],
+57 silly audit   'mime-db': [ '1.52.0', '1.54.0' ],
+57 silly audit   'mime-types': [ '2.1.35', '3.0.2' ],
+57 silly audit   forwarded: [ '0.2.0' ],
+57 silly audit   fresh: [ '2.0.0' ],
+57 silly audit   fsevents: [ '2.3.3' ],
+57 silly audit   'function-bind': [ '1.1.2' ],
+57 silly audit   'get-intrinsic': [ '1.3.0' ],
+57 silly audit   'get-proto': [ '1.0.1' ],
+57 silly audit   'get-tsconfig': [ '4.13.6' ],
+57 silly audit   'glob-parent': [ '5.1.2' ],
+57 silly audit   'glob-to-regexp': [ '0.4.1' ],
+57 silly audit   gopd: [ '1.2.0' ],
+57 silly audit   'has-flag': [ '3.0.0' ],
+57 silly audit   'has-symbols': [ '1.1.0' ],
+57 silly audit   'has-tostringtag': [ '1.0.2' ],
+57 silly audit   hasown: [ '2.0.2' ],
+57 silly audit   'http-errors': [ '2.0.1' ],
+57 silly audit   'iconv-lite': [ '0.7.2' ],
+57 silly audit   'ignore-by-default': [ '1.0.1' ],
+57 silly audit   inherits: [ '2.0.4' ],
+57 silly audit   'ipaddr.js': [ '1.9.1' ],
+57 silly audit   'is-binary-path': [ '2.1.0' ],
+57 silly audit   'is-extglob': [ '2.1.1' ],
+57 silly audit   'is-glob': [ '4.0.3' ],
+57 silly audit   'is-number': [ '7.0.0' ],
+57 silly audit   'is-promise': [ '4.0.0' ],
+57 silly audit   'js-cookie': [ '3.0.5' ],
+57 silly audit   kareem: [ '3.2.0' ],
+57 silly audit   lodash: [ '4.17.23' ],
+57 silly audit   'math-intrinsics': [ '1.1.0' ],
+57 silly audit   'media-typer': [ '1.1.0', '0.3.0' ],
+57 silly audit   'memory-pager': [ '1.5.0' ],
+57 silly audit   'merge-descriptors': [ '2.0.0' ],
+57 silly audit   minimatch: [ '10.2.5' ],
+57 silly audit   mongodb: [ '7.1.0' ],
+57 silly audit   'mongodb-connection-string-url': [ '7.0.1' ],
+57 silly audit   mongoose: [ '9.3.1' ],
+57 silly audit   morgan: [ '1.10.1' ],
+57 silly audit   ms: [ '2.0.0', '2.1.3' ],
+57 silly audit   'on-finished': [ '2.3.0', '2.4.1' ],
+57 silly audit   mpath: [ '0.9.0' ],
+57 silly audit   mquery: [ '6.0.0' ],
+57 silly audit   multer: [ '2.1.1' ],
+57 silly audit   'type-is': [ '1.6.18', '2.0.1' ],
+57 silly audit   negotiator: [ '1.0.0' ],
+57 silly audit   nodemon: [ '3.1.14' ],
+57 silly audit   'normalize-path': [ '3.0.0' ],
+57 silly audit   'object-assign': [ '4.1.1' ],
+57 silly audit   'object-inspect': [ '1.13.4' ],
+57 silly audit   'on-headers': [ '1.1.0' ],
+57 silly audit   once: [ '1.4.0' ],
+57 silly audit   parseurl: [ '1.3.3' ],
+57 silly audit   'path-to-regexp': [ '8.3.0' ],
+57 silly audit   picomatch: [ '2.3.2' ],
+57 silly audit   'proxy-addr': [ '2.0.7' ],
+57 silly audit   'proxy-from-env': [ '2.1.0' ],
+57 silly audit   'pstree.remy': [ '1.1.8' ],
+57 silly audit   punycode: [ '2.3.1' ],
+57 silly audit   qs: [ '6.15.0' ],
+57 silly audit   'range-parser': [ '1.2.1' ],
+57 silly audit   'raw-body': [ '3.0.2' ],
+57 silly audit   razorpay: [ '2.9.6' ],
+57 silly audit   'readable-stream': [ '3.6.2' ],
+57 silly audit   readdirp: [ '3.6.0' ],
+57 silly audit   'resolve-pkg-maps': [ '1.0.0' ],
+57 silly audit   router: [ '2.2.0' ],
+57 silly audit   'safe-buffer': [ '5.1.2', '5.2.1' ],
+57 silly audit   'safer-buffer': [ '2.1.2' ],
+57 silly audit   semver: [ '7.7.4' ],
+57 silly audit   send: [ '1.2.1' ],
+57 silly audit   'serve-static': [ '2.2.1' ],
+57 silly audit   setprototypeof: [ '1.2.0' ],
+57 silly audit   'side-channel': [ '1.1.0' ],
+57 silly audit   'side-channel-list': [ '1.0.0' ],
+57 silly audit   'side-channel-map': [ '1.0.1' ],
+57 silly audit   'side-channel-weakmap': [ '1.0.2' ],
+57 silly audit   sift: [ '17.1.3' ],
+57 silly audit   'simple-update-notifier': [ '2.0.0' ],
+57 silly audit   'sparse-bitfield': [ '3.0.3' ],
+57 silly audit   standardwebhooks: [ '1.0.0' ],
+57 silly audit   statuses: [ '2.0.2' ],
+57 silly audit   'std-env': [ '3.10.0' ],
+57 silly audit   streamifier: [ '0.1.1' ],
+57 silly audit   streamsearch: [ '1.1.0' ],
+57 silly audit   string_decoder: [ '1.3.0' ],
+57 silly audit   'supports-color': [ '5.5.0' ],
+57 silly audit   'to-regex-range': [ '5.0.1' ],
+57 silly audit   toidentifier: [ '1.0.1' ],
+57 silly audit   touch: [ '3.1.1' ],
+57 silly audit   tr46: [ '5.1.1' ],
+57 silly audit   tslib: [ '2.8.1' ],
+57 silly audit   tsx: [ '4.21.0' ],
+57 silly audit   typedarray: [ '0.0.6' ],
+57 silly audit   undefsafe: [ '2.0.5' ],
+57 silly audit   'undici-types': [ '7.18.2' ],
+57 silly audit   unpipe: [ '1.0.0' ],
+57 silly audit   'util-deprecate': [ '1.0.2' ],
+57 silly audit   vary: [ '1.1.2' ],
+57 silly audit   'webidl-conversions': [ '7.0.0' ],
+57 silly audit   'whatwg-url': [ '14.2.0' ],
+57 silly audit   wrappy: [ '1.0.2' ],
+57 silly audit   zod: [ '4.3.6' ],
+57 silly audit   typescript: [ '5.9.3' ]
+57 silly audit }
+58 verbose reify failed optional dependency C:\Users\yello\Documents\New folder\server\node_modules\@esbuild\win32-ia32
+59 silly reify mark deleted [
+59 silly reify   'C:\\Users\\yello\\Documents\\New folder\\server\\node_modules\\@esbuild\\win32-ia32'
+59 silly reify ]
+60 verbose reify failed optional dependency C:\Users\yello\Documents\New folder\server\node_modules\@esbuild\win32-arm64
+61 silly reify mark deleted [
+61 silly reify   'C:\\Users\\yello\\Documents\\New folder\\server\\node_modules\\@esbuild\\win32-arm64'
+61 silly reify ]
+62 verbose reify failed optional dependency C:\Users\yello\Documents\New folder\server\node_modules\@esbuild\sunos-x64
+63 silly reify mark deleted [
+63 silly reify   'C:\\Users\\yello\\Documents\\New folder\\server\\node_modules\\@esbuild\\sunos-x64'
+63 silly reify ]
+64 verbose reify failed optional dependency C:\Users\yello\Documents\New folder\server\node_modules\@esbuild\openharmony-arm64
+65 silly reify mark deleted [
+65 silly reify   'C:\\Users\\yello\\Documents\\New folder\\server\\node_modules\\@esbuild\\openharmony-arm64'
+65 silly reify ]
+66 verbose reify failed optional dependency C:\Users\yello\Documents\New folder\server\node_modules\@esbuild\openbsd-x64
+67 silly reify mark deleted [
+67 silly reify   'C:\\Users\\yello\\Documents\\New folder\\server\\node_modules\\@esbuild\\openbsd-x64'
+67 silly reify ]
+68 verbose reify failed optional dependency C:\Users\yello\Documents\New folder\server\node_modules\@esbuild\openbsd-arm64
+69 silly reify mark deleted [
+69 silly reify   'C:\\Users\\yello\\Documents\\New folder\\server\\node_modules\\@esbuild\\openbsd-arm64'
+69 silly reify ]
+70 verbose reify failed optional dependency C:\Users\yello\Documents\New folder\server\node_modules\@esbuild\netbsd-x64
+71 silly reify mark deleted [
+71 silly reify   'C:\\Users\\yello\\Documents\\New folder\\server\\node_modules\\@esbuild\\netbsd-x64'
+71 silly reify ]
+72 verbose reify failed optional dependency C:\Users\yello\Documents\New folder\server\node_modules\@esbuild\netbsd-arm64
+73 silly reify mark deleted [
+73 silly reify   'C:\\Users\\yello\\Documents\\New folder\\server\\node_modules\\@esbuild\\netbsd-arm64'
+73 silly reify ]
+74 verbose reify failed optional dependency C:\Users\yello\Documents\New folder\server\node_modules\@esbuild\linux-x64
+75 silly reify mark deleted [
+75 silly reify   'C:\\Users\\yello\\Documents\\New folder\\server\\node_modules\\@esbuild\\linux-x64'
+75 silly reify ]
+76 verbose reify failed optional dependency C:\Users\yello\Documents\New folder\server\node_modules\@esbuild\linux-s390x
+77 silly reify mark deleted [
+77 silly reify   'C:\\Users\\yello\\Documents\\New folder\\server\\node_modules\\@esbuild\\linux-s390x'
+77 silly reify ]
+78 verbose reify failed optional dependency C:\Users\yello\Documents\New folder\server\node_modules\@esbuild\linux-riscv64
+79 silly reify mark deleted [
+79 silly reify   'C:\\Users\\yello\\Documents\\New folder\\server\\node_modules\\@esbuild\\linux-riscv64'
+79 silly reify ]
+80 verbose reify failed optional dependency C:\Users\yello\Documents\New folder\server\node_modules\@esbuild\linux-ppc64
+81 silly reify mark deleted [
+81 silly reify   'C:\\Users\\yello\\Documents\\New folder\\server\\node_modules\\@esbuild\\linux-ppc64'
+81 silly reify ]
+82 verbose reify failed optional dependency C:\Users\yello\Documents\New folder\server\node_modules\@esbuild\linux-mips64el
+83 silly reify mark deleted [
+83 silly reify   'C:\\Users\\yello\\Documents\\New folder\\server\\node_modules\\@esbuild\\linux-mips64el'
+83 silly reify ]
+84 verbose reify failed optional dependency C:\Users\yello\Documents\New folder\server\node_modules\@esbuild\linux-loong64
+85 silly reify mark deleted [
+85 silly reify   'C:\\Users\\yello\\Documents\\New folder\\server\\node_modules\\@esbuild\\linux-loong64'
+85 silly reify ]
+86 verbose reify failed optional dependency C:\Users\yello\Documents\New folder\server\node_modules\@esbuild\linux-ia32
+87 silly reify mark deleted [
+87 silly reify   'C:\\Users\\yello\\Documents\\New folder\\server\\node_modules\\@esbuild\\linux-ia32'
+87 silly reify ]
+88 verbose reify failed optional dependency C:\Users\yello\Documents\New folder\server\node_modules\@esbuild\linux-arm64
+89 silly reify mark deleted [
+89 silly reify   'C:\\Users\\yello\\Documents\\New folder\\server\\node_modules\\@esbuild\\linux-arm64'
+89 silly reify ]
+90 verbose reify failed optional dependency C:\Users\yello\Documents\New folder\server\node_modules\@esbuild\linux-arm
+91 silly reify mark deleted [
+91 silly reify   'C:\\Users\\yello\\Documents\\New folder\\server\\node_modules\\@esbuild\\linux-arm'
+91 silly reify ]
+92 verbose reify failed optional dependency C:\Users\yello\Documents\New folder\server\node_modules\@esbuild\freebsd-x64
+93 silly reify mark deleted [
+93 silly reify   'C:\\Users\\yello\\Documents\\New folder\\server\\node_modules\\@esbuild\\freebsd-x64'
+93 silly reify ]
+94 verbose reify failed optional dependency C:\Users\yello\Documents\New folder\server\node_modules\@esbuild\freebsd-arm64
+95 silly reify mark deleted [
+95 silly reify   'C:\\Users\\yello\\Documents\\New folder\\server\\node_modules\\@esbuild\\freebsd-arm64'
+95 silly reify ]
+96 verbose reify failed optional dependency C:\Users\yello\Documents\New folder\server\node_modules\@esbuild\darwin-x64
+97 silly reify mark deleted [
+97 silly reify   'C:\\Users\\yello\\Documents\\New folder\\server\\node_modules\\@esbuild\\darwin-x64'
+97 silly reify ]
+98 verbose reify failed optional dependency C:\Users\yello\Documents\New folder\server\node_modules\@esbuild\darwin-arm64
+99 silly reify mark deleted [
+99 silly reify   'C:\\Users\\yello\\Documents\\New folder\\server\\node_modules\\@esbuild\\darwin-arm64'
+99 silly reify ]
+100 verbose reify failed optional dependency C:\Users\yello\Documents\New folder\server\node_modules\@esbuild\android-x64
+101 silly reify mark deleted [
+101 silly reify   'C:\\Users\\yello\\Documents\\New folder\\server\\node_modules\\@esbuild\\android-x64'
+101 silly reify ]
+102 verbose reify failed optional dependency C:\Users\yello\Documents\New folder\server\node_modules\@esbuild\android-arm64
+103 silly reify mark deleted [
+103 silly reify   'C:\\Users\\yello\\Documents\\New folder\\server\\node_modules\\@esbuild\\android-arm64'
+103 silly reify ]
+104 verbose reify failed optional dependency C:\Users\yello\Documents\New folder\server\node_modules\@esbuild\android-arm
+105 silly reify mark deleted [
+105 silly reify   'C:\\Users\\yello\\Documents\\New folder\\server\\node_modules\\@esbuild\\android-arm'
+105 silly reify ]
+106 verbose reify failed optional dependency C:\Users\yello\Documents\New folder\server\node_modules\@esbuild\aix-ppc64
+107 silly reify mark deleted [
+107 silly reify   'C:\\Users\\yello\\Documents\\New folder\\server\\node_modules\\@esbuild\\aix-ppc64'
+107 silly reify ]
+108 verbose reify failed optional dependency C:\Users\yello\Documents\New folder\server\node_modules\fsevents
+109 silly reify mark deleted [
+109 silly reify   'C:\\Users\\yello\\Documents\\New folder\\server\\node_modules\\fsevents'
+109 silly reify ]
+110 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 796ms
+111 silly audit report {
+111 silly audit report   '@clerk/backend': [
+111 silly audit report     {
+111 silly audit report       id: 1120354,
+111 silly audit report       url: 'https://github.com/advisories/GHSA-w24r-5266-9c3c',
+111 silly audit report       title: 'Clerk has an authorization bypass when combining organization, billing, or reverification checks',
+111 silly audit report       severity: 'high',
+111 silly audit report       vulnerable_versions: '>=3.0.0 <=3.2.13',
+111 silly audit report       cwe: [Array],
+111 silly audit report       cvss: [Object]
+111 silly audit report     },
+111 silly audit report     {
+111 silly audit report       id: 1115987,
+111 silly audit report       url: 'https://github.com/advisories/GHSA-gjxx-92w9-8v8f',
+111 silly audit report       title: 'Clerk: SSRF in the opt-in clerkFrontendApiProxy feature may leak secret keys to unintended host',
+111 silly audit report       severity: 'high',
+111 silly audit report       vulnerable_versions: '>=3.0.0 <=3.2.2',
+111 silly audit report       cwe: [Array],
+111 silly audit report       cvss: [Object]
+111 silly audit report     }
+111 silly audit report   ],
+111 silly audit report   '@clerk/express': [
+111 silly audit report     {
+111 silly audit report       id: 1120330,
+111 silly audit report       url: 'https://github.com/advisories/GHSA-w24r-5266-9c3c',
+111 silly audit report       title: 'Clerk has an authorization bypass when combining organization, billing, or reverification checks',
+111 silly audit report       severity: 'high',
+111 silly audit report       vulnerable_versions: '>=2.0.0 <=2.1.5',
+111 silly audit report       cwe: [Array],
+111 silly audit report       cvss: [Object]
+111 silly audit report     },
+111 silly audit report     {
+111 silly audit report       id: 1115986,
+111 silly audit report       url: 'https://github.com/advisories/GHSA-gjxx-92w9-8v8f',
+111 silly audit report       title: 'Clerk: SSRF in the opt-in clerkFrontendApiProxy feature may leak secret keys to unintended host',
+111 silly audit report       severity: 'high',
+111 silly audit report       vulnerable_versions: '>=2.0.0 <=2.0.6',
+111 silly audit report       cwe: [Array],
+111 silly audit report       cvss: [Object]
+111 silly audit report     }
+111 silly audit report   ],
+111 silly audit report   '@clerk/shared': [
+111 silly audit report     {
+111 silly audit report       id: 1120356,
+111 silly audit report       url: 'https://github.com/advisories/GHSA-w24r-5266-9c3c',
+111 silly audit report       title: 'Clerk has an authorization bypass when combining organization, billing, or reverification checks',
+111 silly audit report       severity: 'high',
+111 silly audit report       vulnerable_versions: '>=4.0.0 <=4.8.2',
+111 silly audit report       cwe: [Array],
+111 silly audit report       cvss: [Object]
+111 silly audit report     },
+111 silly audit report     {
+111 silly audit report       id: 1117122,
+111 silly audit report       url: 'https://github.com/advisories/GHSA-vqx2-fgx2-5wq9',
+111 silly audit report       title: 'Official Clerk JavaScript SDKs: Middleware-based route protection bypass',
+111 silly audit report       severity: 'critical',
+111 silly audit report       vulnerable_versions: '>=4.0.0 <4.8.1',
+111 silly audit report       cwe: [Array],
+111 silly audit report       cvss: [Object]
+111 silly audit report     }
+111 silly audit report   ],
+111 silly audit report   axios: [
+111 silly audit report     {
+111 silly audit report       id: 1118607,
+111 silly audit report       url: 'https://github.com/advisories/GHSA-q8qp-cvcw-x6jj',
+111 silly audit report       title: 'Axios has prototype pollution read-side gadgets in HTTP adapter that allow credential injection and request hijacking',
+111 silly audit report       severity: 'high',
+111 silly audit report       vulnerable_versions: '>=1.0.0 <1.15.2',
+111 silly audit report       cwe: [Array],
+111 silly audit report       cvss: [Object]
+111 silly audit report     },
+111 silly audit report     {
+111 silly audit report       id: 1119404,
+111 silly audit report       url: 'https://github.com/advisories/GHSA-fvcv-3m26-pcqx',
+111 silly audit report       title: 'Axios has Unrestricted Cloud Metadata Exfiltration via Header Injection Chain',
+111 silly audit report       severity: 'moderate',
+111 silly audit report       vulnerable_versions: '>=1.0.0 <1.15.0',
+111 silly audit report       cwe: [Array],
+111 silly audit report       cvss: [Object]
+111 silly audit report     },
+111 silly audit report     {
+111 silly audit report       id: 1120125,
+111 silly audit report       url: 'https://github.com/advisories/GHSA-62hf-57xw-28j9',
+111 silly audit report       title: 'Axios: unbounded recursion in toFormData causes DoS via deeply nested request data',
+111 silly audit report       severity: 'moderate',
+111 silly audit report       vulnerable_versions: '>=1.0.0 <1.15.1',
+111 silly audit report       cwe: [Array],
+111 silly audit report       cvss: [Object]
+111 silly audit report     },
+111 silly audit report     {
+111 silly audit report       id: 1120547,
+111 silly audit report       url: 'https://github.com/advisories/GHSA-hfxv-24rg-xrqf',
+111 silly audit report       title: 'Axios: Regular Expression Denial of Service (ReDoS) via Cookie Name Injection',
+111 silly audit report       severity: 'high',
+111 silly audit report       vulnerable_versions: '>=1.0.0 <1.16.0',
+111 silly audit report       cwe: [Array],
+111 silly audit report       cvss: [Object]
+111 silly audit report     },
+111 silly audit report     {
+111 silly audit report       id: 1120643,
+111 silly audit report       url: 'https://github.com/advisories/GHSA-777c-7fjr-54vf',
+111 silly audit report       title: 'Allocation of Resources Without Limits or Throttling in Axios',
+111 silly audit report       severity: 'high',
+111 silly audit report       vulnerable_versions: '>=1.7.0 <1.16.0',
+111 silly audit report       cwe: [Array],
+111 silly audit report       cvss: [Object]
+111 silly audit report     },
+111 silly audit report     {
+111 silly audit report       id: 1120645,
+111 silly audit report       url: 'https://github.com/advisories/GHSA-p92q-9vqr-4j8v',
+111 silly audit report       title: 'Axios: Proxy-Authorization Credential Leak to Origin Server Across HTTP-to-HTTPS Redirect in Axios Node.js HTTP Adapter',
+111 silly audit report       severity: 'high',
+111 silly audit report       vulnerable_versions: '>=1.0.0 <1.16.0',
+111 silly audit report       cwe: [Array],
+111 silly audit report       cvss: [Object]
+111 silly audit report     },
+111 silly audit report     {
+111 silly audit report       id: 1120647,
+111 silly audit report       url: 'https://github.com/advisories/GHSA-j5f8-grm9-p9fc',
+111 silly audit report       title: 'Axios: Proxy-Authorization header leaks to redirect target when proxy is re-evaluated to direct connection',
+111 silly audit report       severity: 'high',
+111 silly audit report       vulnerable_versions: '>=1.0.0 <1.16.0',
+111 silly audit report       cwe: [Array],
+111 silly audit report       cvss: [Object]
+111 silly audit report     },
+111 silly audit report     {
+111 silly audit report       id: 1120649,
+111 silly audit report       url: 'https://github.com/advisories/GHSA-3g43-6gmg-66jw',
+111 silly audit report       title: 'axios Vulnerable to Credential Theft and Response Hijacking via Prototype Pollution Gadget in Config Merge',
+111 silly audit report       severity: 'high',
+111 silly audit report       vulnerable_versions: '>=1.0.0 <1.15.2',
+111 silly audit report       cwe: [Array],
+111 silly audit report       cvss: [Object]
+111 silly audit report     },
+111 silly audit report     {
+111 silly audit report       id: 1120650,
+111 silly audit report       url: 'https://github.com/advisories/GHSA-35jp-ww65-95wh',
+111 silly audit report       title: 'axios Vulnerable to Full Man-in-the-Middle via Prototype Pollution Gadget in `config.proxy`',
+111 silly audit report       severity: 'high',
+111 silly audit report       vulnerable_versions: '>=1.0.0 <1.16.0',
+111 silly audit report       cwe: [Array],
+111 silly audit report       cvss: [Object]
+111 silly audit report     },
+111 silly audit report     {
+111 silly audit report       id: 1120652,
+111 silly audit report       url: 'https://github.com/advisories/GHSA-898c-q2cr-xwhg',
+111 silly audit report       title: 'axios has DoS & Header Injection via Prototype Pollution Read-Side Gadgets in axios merge functions',
+111 silly audit report       severity: 'moderate',
+111 silly audit report       vulnerable_versions: '>=1.0.0 <1.16.0',
+111 silly audit report       cwe: [Array],
+111 silly audit report       cvss: [Object]
+111 silly audit report     },
+111 silly audit report     {
+111 silly audit report       id: 1116673,
+111 silly audit report       url: 'https://github.com/advisories/GHSA-3p68-rc4w-qgx5',
+111 silly audit report       title: 'Axios has a NO_PROXY Hostname Normalization Bypass that Leads to SSRF',
+111 silly audit report       severity: 'moderate',
+111 silly audit report       vulnerable_versions: '>=1.0.0 <1.15.0',
+111 silly audit report       cwe: [Array],
+111 silly audit report       cvss: [Object]
+111 silly audit report     },
+111 silly audit report     {
+111 silly audit report       id: 1117574,
+111 silly audit report       url: 'https://github.com/advisories/GHSA-w9j2-pvgh-6h63',
+111 silly audit report       title: 'Axios: Authentication Bypass via Prototype Pollution Gadget in `validateStatus` Merge Strategy',
+111 silly audit report       severity: 'moderate',
+111 silly audit report       vulnerable_versions: '>=1.0.0 <1.15.1',
+111 silly audit report       cwe: [Array],
+111 silly audit report       cvss: [Object]
+111 silly audit report     },
+111 silly audit report     {
+111 silly audit report       id: 1117576,
+111 silly audit report       url: 'https://github.com/advisories/GHSA-pmwg-cvhr-8vh7',
+111 silly audit report       title: 'Axios: Incomplete Fix for CVE-2025-62718 — NO_PROXY Protection Bypassed via RFC 1122 Loopback Subnet (127.0.0.0/8) in Axios 1.15.0',
+111 silly audit report       severity: 'high',
+111 silly audit report       vulnerable_versions: '>=1.0.0 <1.15.1',
+111 silly audit report       cwe: [Array],
+111 silly audit report       cvss: [Object]
+111 silly audit report     },
+111 silly audit report     {
+111 silly audit report       id: 1117577,
+111 silly audit report       url: 'https://github.com/advisories/GHSA-3w6x-2g7m-8v23',
+111 silly audit report       title: 'Axios: Invisible JSON Response Tampering via Prototype Pollution Gadget in `parseReviver`',
+111 silly audit report       severity: 'moderate',
+111 silly audit report       vulnerable_versions: '>=1.0.0 <1.15.2',
+111 silly audit report       cwe: [Array],
+111 silly audit report       cvss: [Object]
+111 silly audit report     },
+111 silly audit report     {
+111 silly audit report       id: 1117580,
+111 silly audit report       url: 'https://github.com/advisories/GHSA-xhjh-pmcv-23jw',
+111 silly audit report       title: 'Axios: Null Byte Injection via Reverse-Encoding in AxiosURLSearchParams',
+111 silly audit report       severity: 'low',
+111 silly audit report       vulnerable_versions: '>=1.0.0 <1.15.1',
+111 silly audit report       cwe: [Array],
+111 silly audit report       cvss: [Object]
+111 silly audit report     },
+111 silly audit report     {
+111 silly audit report       id: 1117581,
+111 silly audit report       url: 'https://github.com/advisories/GHSA-445q-vr5w-6q77',
+111 silly audit report       title: 'Axios: CRLF Injection in multipart/form-data body via unsanitized blob.type in formDataToStream',
+111 silly audit report       severity: 'moderate',
+111 silly audit report       vulnerable_versions: '>=1.0.0 <1.15.1',
+111 silly audit report       cwe: [Array],
+111 silly audit report       cvss: [Object]
+111 silly audit report     },
+111 silly audit report     {
+111 silly audit report       id: 1117583,
+111 silly audit report       url: 'https://github.com/advisories/GHSA-m7pr-hjqh-92cm',
+111 silly audit report       title: 'Axios: no_proxy bypass via IP alias allows SSRF',
+111 silly audit report       severity: 'moderate',
+111 silly audit report       vulnerable_versions: '>=1.0.0 <1.15.1',
+111 silly audit report       cwe: [Array],
+111 silly audit report       cvss: [Object]
+111 silly audit report     },
+111 silly audit report     {
+111 silly audit report       id: 1117587,
+111 silly audit report       url: 'https://github.com/advisories/GHSA-5c9x-8gcm-mpgx',
+111 silly audit report       title: "Axios' HTTP adapter-streamed uploads bypass maxBodyLength when maxRedirects: 0",
+111 silly audit report       severity: 'moderate',
+111 silly audit report       vulnerable_versions: '>=1.0.0 <1.15.1',
+111 silly audit report       cwe: [Array],
+111 silly audit report       cvss: [Object]
+111 silly audit report     },
+111 silly audit report     {
+111 silly audit report       id: 1117589,
+111 silly audit report       url: 'https://github.com/advisories/GHSA-vf2m-468p-8v99',
+111 silly audit report       title: 'Axios: HTTP adapter streamed responses bypass maxContentLength',
+111 silly audit report       severity: 'moderate',
+111 silly audit report       vulnerable_versions: '>=1.0.0 <1.15.1',
+111 silly audit report       cwe: [Array],
+111 silly audit report       cvss: [Object]
+111 silly audit report     },
+111 silly audit report     {
+111 silly audit report       id: 1117591,
+111 silly audit report       url: 'https://github.com/advisories/GHSA-pf86-5x62-jrwf',
+111 silly audit report       title: 'Axios: Prototype Pollution Gadgets - Response Tampering, Data Exfiltration, and Request Hijacking',
+111 silly audit report       severity: 'high',
+111 silly audit report       vulnerable_versions: '>=1.0.0 <1.15.1',
+111 silly audit report       cwe: [Array],
+111 silly audit report       cvss: [Object]
+111 silly audit report     },
+111 silly audit report     {
+111 silly audit report       id: 1117593,
+111 silly audit report       url: 'https://github.com/advisories/GHSA-6chq-wfr3-2hj9',
+111 silly audit report       title: 'Axios: Header Injection via Prototype Pollution',
+111 silly audit report       severity: 'high',
+111 silly audit report       vulnerable_versions: '>=1.0.0 <1.15.1',
+111 silly audit report       cwe: [Array],
+111 silly audit report       cvss: [Object]
+111 silly audit report     },
+111 silly audit report     {
+111 silly audit report       id: 1117595,
+111 silly audit report       url: 'https://github.com/advisories/GHSA-xx6v-rp6x-q39c',
+111 silly audit report       title: 'Axios: XSRF Token Cross-Origin Leakage via Prototype Pollution Gadget in `withXSRFToken` Boolean Coercion',
+111 silly audit report       severity: 'moderate',
+111 silly audit report       vulnerable_versions: '>=1.0.0 <1.15.1',
+111 silly audit report       cwe: [Array],
+111 silly audit report       cvss: [Object]
+111 silly audit report     }
+111 silly audit report   ],
+111 silly audit report   'brace-expansion': [
+111 silly audit report     {
+111 silly audit report       id: 1120311,
+111 silly audit report       url: 'https://github.com/advisories/GHSA-jxxr-4gwj-5jf2',
+111 silly audit report       title: 'brace-expansion: Large numeric range defeats documented `max` DoS protection',
+111 silly audit report       severity: 'moderate',
+111 silly audit report       vulnerable_versions: '>=5.0.0 <5.0.6',
+111 silly audit report       cwe: [Array],
+111 silly audit report       cvss: [Object]
+111 silly audit report     }
+111 silly audit report   ],
+111 silly audit report   esbuild: [
+111 silly audit report     {
+111 silly audit report       id: 1120680,
+111 silly audit report       url: 'https://github.com/advisories/GHSA-g7r4-m6w7-qqqr',
+111 silly audit report       title: 'esbuild allows arbitrary file read when running the development server on Windows',
+111 silly audit report       severity: 'low',
+111 silly audit report       vulnerable_versions: '>=0.27.3 <0.28.1',
+111 silly audit report       cwe: [Array],
+111 silly audit report       cvss: [Object]
+111 silly audit report     }
+111 silly audit report   ],
+111 silly audit report   'follow-redirects': [
+111 silly audit report     {
+111 silly audit report       id: 1116560,
+111 silly audit report       url: 'https://github.com/advisories/GHSA-r4q5-vmmm-2653',
+111 silly audit report       title: 'follow-redirects leaks Custom Authentication Headers to Cross-Domain Redirect Targets',
+111 silly audit report       severity: 'moderate',
+111 silly audit report       vulnerable_versions: '<=1.15.11',
+111 silly audit report       cwe: [Array],
+111 silly audit report       cvss: [Object]
+111 silly audit report     }
+111 silly audit report   ],
+111 silly audit report   'form-data': [
+111 silly audit report     {
+111 silly audit report       id: 1120743,
+111 silly audit report       url: 'https://github.com/advisories/GHSA-hmw2-7cc7-3qxx',
+111 silly audit report       title: 'form-data: CRLF injection in form-data via unescaped multipart field names and filenames',
+111 silly audit report       severity: 'high',
+111 silly audit report       vulnerable_versions: '>=4.0.0 <4.0.6',
+111 silly audit report       cwe: [Array],
+111 silly audit report       cvss: [Object]
+111 silly audit report     }
+111 silly audit report   ],
+111 silly audit report   'js-cookie': [
+111 silly audit report     {
+111 silly audit report       id: 1120607,
+111 silly audit report       url: 'https://github.com/advisories/GHSA-qjx8-664m-686j',
+111 silly audit report       title: 'JavaScript Cookie: Per-instance prototype hijack in assign() enables cookie-attribute injection',
+111 silly audit report       severity: 'high',
+111 silly audit report       vulnerable_versions: '<=3.0.5',
+111 silly audit report       cwe: [Array],
+111 silly audit report       cvss: [Object]
+111 silly audit report     }
+111 silly audit report   ],
+111 silly audit report   lodash: [
+111 silly audit report     {
+111 silly audit report       id: 1115806,
+111 silly audit report       url: 'https://github.com/advisories/GHSA-r5fr-rjxr-66jc',
+111 silly audit report       title: 'lodash vulnerable to Code Injection via `_.template` imports key names',
+111 silly audit report       severity: 'high',
+111 silly audit report       vulnerable_versions: '>=4.0.0 <=4.17.23',
+111 silly audit report       cwe: [Array],
+111 silly audit report       cvss: [Object]
+111 silly audit report     },
+111 silly audit report     {
+111 silly audit report       id: 1115810,
+111 silly audit report       url: 'https://github.com/advisories/GHSA-f23m-r3pf-42rh',
+111 silly audit report       title: 'lodash vulnerable to Prototype Pollution via array path bypass in `_.unset` and `_.omit`',
+111 silly audit report       severity: 'moderate',
+111 silly audit report       vulnerable_versions: '<=4.17.23',
+111 silly audit report       cwe: [Array],
+111 silly audit report       cvss: [Object]
+111 silly audit report     }
+111 silly audit report   ],
+111 silly audit report   morgan: [
+111 silly audit report     {
+111 silly audit report       id: 1122902,
+111 silly audit report       url: 'https://github.com/advisories/GHSA-4vj7-5mj6-jm8m',
+111 silly audit report       title: 'morgan vulnerable to Log Forging via unneutralized control characters in :remote-user',
+111 silly audit report       severity: 'moderate',
+111 silly audit report       vulnerable_versions: '>=1.2.0 <=1.10.1',
+111 silly audit report       cwe: [Array],
+111 silly audit report       cvss: [Object]
+111 silly audit report     }
+111 silly audit report   ],
+111 silly audit report   multer: [
+111 silly audit report     {
+111 silly audit report       id: 1121089,
+111 silly audit report       url: 'https://github.com/advisories/GHSA-72gw-mp4g-v24j',
+111 silly audit report       title: 'Multer vulnerable to Denial of Service via deeply nested field names',
+111 silly audit report       severity: 'high',
+111 silly audit report       vulnerable_versions: '>=1.0.0 <2.2.0',
+111 silly audit report       cwe: [Array],
+111 silly audit report       cvss: [Object]
+111 silly audit report     },
+111 silly audit report     {
+111 silly audit report       id: 1121091,
+111 silly audit report       url: 'https://github.com/advisories/GHSA-3p4h-7m6x-2hcm',
+111 silly audit report       title: 'Multer vulnerable to Denial of Service via incomplete cleanup of aborted uploads',
+111 silly audit report       severity: 'moderate',
+111 silly audit report       vulnerable_versions: '>=2.0.0-alpha.1 <2.2.0',
+111 silly audit report       cwe: [Array],
+111 silly audit report       cvss: [Object]
+111 silly audit report     }
+111 silly audit report   ],
+111 silly audit report   'path-to-regexp': [
+111 silly audit report     {
+111 silly audit report       id: 1115573,
+111 silly audit report       url: 'https://github.com/advisories/GHSA-j3q9-mxjg-w52f',
+111 silly audit report       title: 'path-to-regexp vulnerable to Denial of Service via sequential optional groups',
+111 silly audit report       severity: 'high',
+111 silly audit report       vulnerable_versions: '>=8.0.0 <8.4.0',
+111 silly audit report       cwe: [Array],
+111 silly audit report       cvss: [Object]
+111 silly audit report     },
+111 silly audit report     {
+111 silly audit report       id: 1115582,
+111 silly audit report       url: 'https://github.com/advisories/GHSA-27v5-c462-wpq7',
+111 silly audit report       title: 'path-to-regexp vulnerable to Regular Expression Denial of Service via multiple wildcards',
+111 silly audit report       severity: 'moderate',
+111 silly audit report       vulnerable_versions: '>=8.0.0 <8.4.0',
+111 silly audit report       cwe: [Array],
+111 silly audit report       cvss: [Object]
+111 silly audit report     }
+111 silly audit report   ],
+111 silly audit report   qs: [
+111 silly audit report     {
+111 silly audit report       id: 1119502,
+111 silly audit report       url: 'https://github.com/advisories/GHSA-q8mj-m7cp-5q26',
+111 silly audit report       title: 'qs has a remotely triggerable DoS: qs.stringify crashes with TypeError on null/undefined entries in comma-format arrays when encodeValuesOnly is set',
+111 silly audit report       severity: 'moderate',
+111 silly audit report       vulnerable_versions: '>=6.11.1 <=6.15.1',
+111 silly audit report       cwe: [Array],
+111 silly audit report       cvss: [Object]
+111 silly audit report     }
+111 silly audit report   ]
+111 silly audit report }
+112 silly packumentCache corgi:https://registry.npmjs.org/@clerk%2fbackend cache-miss
+113 silly packumentCache corgi:https://registry.npmjs.org/@clerk%2fexpress cache-miss
+114 silly packumentCache corgi:https://registry.npmjs.org/@clerk%2fshared cache-miss
+115 silly packumentCache corgi:https://registry.npmjs.org/axios cache-miss
+116 silly packumentCache corgi:https://registry.npmjs.org/brace-expansion cache-miss
+117 silly packumentCache corgi:https://registry.npmjs.org/esbuild cache-miss
+118 silly packumentCache corgi:https://registry.npmjs.org/follow-redirects cache-miss
+119 silly packumentCache corgi:https://registry.npmjs.org/form-data cache-miss
+120 silly packumentCache corgi:https://registry.npmjs.org/js-cookie cache-miss
+121 silly packumentCache corgi:https://registry.npmjs.org/lodash cache-miss
+122 silly packumentCache corgi:https://registry.npmjs.org/morgan cache-miss
+123 silly packumentCache corgi:https://registry.npmjs.org/multer cache-miss
+124 silly packumentCache corgi:https://registry.npmjs.org/path-to-regexp cache-miss
+125 silly packumentCache corgi:https://registry.npmjs.org/qs cache-miss
+126 http fetch GET 200 https://registry.npmjs.org/esbuild/-/esbuild-0.27.4.tgz 1273ms (cache revalidated)
+127 http fetch GET 200 https://registry.npmjs.org/touch/-/touch-3.1.1.tgz 1290ms (cache revalidated)
+128 http fetch GET 200 https://registry.npmjs.org/nodemon/-/nodemon-3.1.14.tgz 1297ms (cache revalidated)
+129 http fetch GET 200 https://registry.npmjs.org/tsx/-/tsx-4.21.0.tgz 1331ms (cache revalidated)
+130 http fetch GET 200 https://registry.npmjs.org/semver/-/semver-7.7.4.tgz 1410ms (cache revalidated)
+131 http fetch GET 200 https://registry.npmjs.org/form-data 694ms (cache revalidated)
+132 silly packumentCache corgi:https://registry.npmjs.org/form-data set size:55002 disposed:false
+133 http fetch GET 200 https://registry.npmjs.org/lodash 717ms (cache revalidated)
+134 silly packumentCache corgi:https://registry.npmjs.org/lodash set size:69555 disposed:false
+135 http fetch GET 200 https://registry.npmjs.org/js-cookie 760ms (cache revalidated)
+136 silly packumentCache corgi:https://registry.npmjs.org/js-cookie set size:53502 disposed:false
+137 http fetch GET 200 https://registry.npmjs.org/@clerk%2fexpress 849ms (cache revalidated)
+138 silly packumentCache corgi:https://registry.npmjs.org/@clerk%2fexpress set size:4732860 disposed:false
+139 http fetch GET 200 https://registry.npmjs.org/follow-redirects 1342ms (cache revalidated)
+140 silly packumentCache corgi:https://registry.npmjs.org/follow-redirects set size:88479 disposed:false
+141 http fetch GET 200 https://registry.npmjs.org/esbuild 1357ms (cache revalidated)
+142 silly packumentCache corgi:https://registry.npmjs.org/esbuild set size:887361 disposed:false
+143 http fetch GET 200 https://registry.npmjs.org/axios 1375ms (cache revalidated)
+144 silly packumentCache corgi:https://registry.npmjs.org/axios set size:297980 disposed:false
+145 http fetch GET 200 https://registry.npmjs.org/path-to-regexp 1404ms (cache revalidated)
+146 silly packumentCache corgi:https://registry.npmjs.org/path-to-regexp set size:66575 disposed:false
+147 http fetch GET 200 https://registry.npmjs.org/qs 1419ms (cache revalidated)
+148 silly packumentCache corgi:https://registry.npmjs.org/qs set size:148003 disposed:false
+149 http fetch GET 200 https://registry.npmjs.org/multer 1431ms (cache revalidated)
+150 silly packumentCache corgi:https://registry.npmjs.org/multer set size:72380 disposed:false
+151 http fetch GET 200 https://registry.npmjs.org/@clerk%2fshared 1478ms (cache revalidated)
+152 silly packumentCache corgi:https://registry.npmjs.org/@clerk%2fshared set size:6781747 disposed:false
+153 http fetch GET 200 https://registry.npmjs.org/@clerk%2fbackend 2209ms (cache revalidated)
+154 silly packumentCache corgi:https://registry.npmjs.org/@clerk%2fbackend set size:6564859 disposed:false
+155 http fetch GET 200 https://registry.npmjs.org/brace-expansion 2772ms (cache revalidated)
+156 silly packumentCache corgi:https://registry.npmjs.org/brace-expansion set size:26677 disposed:false
+157 http fetch GET 200 https://registry.npmjs.org/morgan 2770ms (cache revalidated)
+158 silly packumentCache corgi:https://registry.npmjs.org/morgan set size:22642 disposed:false
+159 silly packumentCache corgi:https://registry.npmjs.org/razorpay cache-miss
+160 http fetch GET 200 https://registry.npmjs.org/razorpay 467ms (cache miss)
+161 silly packumentCache corgi:https://registry.npmjs.org/razorpay set size:undefined disposed:false
+162 silly packumentCache corgi:https://registry.npmjs.org/minimatch cache-miss
+163 http fetch GET 200 https://registry.npmjs.org/minimatch 494ms (cache miss)
+164 silly packumentCache corgi:https://registry.npmjs.org/minimatch set size:undefined disposed:false
+165 silly packumentCache corgi:https://registry.npmjs.org/tsx cache-miss
+166 http fetch GET 200 https://registry.npmjs.org/tsx 401ms (cache miss)
+167 silly packumentCache corgi:https://registry.npmjs.org/tsx set size:undefined disposed:false
+168 http fetch GET 200 https://registry.npmjs.org/@esbuild/win32-x64/-/win32-x64-0.27.4.tgz 160206ms (cache miss)
+169 silly packumentCache corgi:https://registry.npmjs.org/cloudinary cache-miss
+170 http fetch GET 200 https://registry.npmjs.org/cloudinary 449ms (cache miss)
+171 silly packumentCache corgi:https://registry.npmjs.org/cloudinary set size:undefined disposed:false
+172 silly packumentCache corgi:https://registry.npmjs.org/router cache-miss
+173 http fetch GET 200 https://registry.npmjs.org/router 366ms (cache miss)
+174 silly packumentCache corgi:https://registry.npmjs.org/router set size:undefined disposed:false
+175 silly packumentCache corgi:https://registry.npmjs.org/body-parser cache-miss
+176 silly packumentCache corgi:https://registry.npmjs.org/express cache-miss
+177 http fetch GET 200 https://registry.npmjs.org/body-parser 499ms (cache miss)
+178 silly packumentCache corgi:https://registry.npmjs.org/body-parser set size:undefined disposed:false
+179 http fetch GET 200 https://registry.npmjs.org/express 590ms (cache miss)
+180 silly packumentCache corgi:https://registry.npmjs.org/express set size:undefined disposed:false
+181 http fetch GET 200 https://registry.npmjs.org/mongoose/-/mongoose-9.3.1.tgz 162750ms (cache miss)
+182 http fetch GET 200 https://registry.npmjs.org/typescript/-/typescript-5.9.3.tgz 163265ms (cache miss)
+183 http fetch GET 200 https://registry.npmjs.org/mongodb/-/mongodb-7.1.0.tgz 163600ms (cache miss)
+184 http fetch GET 200 https://registry.npmjs.org/zod/-/zod-4.3.6.tgz 164671ms (cache miss)
+185 http fetch GET 200 https://registry.npmjs.org/lodash/-/lodash-4.17.23.tgz 165004ms (cache miss)
+186 info run esbuild@0.27.4 postinstall node_modules/esbuild node install.js
+187 info run esbuild@0.27.4 postinstall { code: 0, signal: null }
+188 silly CHANGE node_modules/tsx
+189 silly CHANGE node_modules/touch
+190 silly CHANGE node_modules/semver
+191 silly CHANGE node_modules/nodemon
+192 silly CHANGE node_modules/esbuild
+193 silly CHANGE node_modules/@esbuild/win32-x64
+194 silly CHANGE node_modules/@esbuild/win32-ia32
+195 silly CHANGE node_modules/@esbuild/win32-arm64
+196 silly CHANGE node_modules/@esbuild/sunos-x64
+197 silly CHANGE node_modules/@esbuild/openharmony-arm64
+198 silly CHANGE node_modules/@esbuild/openbsd-x64
+199 silly CHANGE node_modules/@esbuild/openbsd-arm64
+200 silly CHANGE node_modules/@esbuild/netbsd-x64
+201 silly CHANGE node_modules/@esbuild/netbsd-arm64
+202 silly CHANGE node_modules/@esbuild/linux-x64
+203 silly CHANGE node_modules/@esbuild/linux-s390x
+204 silly CHANGE node_modules/@esbuild/linux-riscv64
+205 silly CHANGE node_modules/@esbuild/linux-ppc64
+206 silly CHANGE node_modules/@esbuild/linux-mips64el
+207 silly CHANGE node_modules/@esbuild/linux-loong64
+208 silly CHANGE node_modules/@esbuild/linux-ia32
+209 silly CHANGE node_modules/@esbuild/linux-arm64
+210 silly CHANGE node_modules/@esbuild/linux-arm
+211 silly CHANGE node_modules/@esbuild/freebsd-x64
+212 silly CHANGE node_modules/@esbuild/freebsd-arm64
+213 silly CHANGE node_modules/@esbuild/darwin-x64
+214 silly CHANGE node_modules/@esbuild/darwin-arm64
+215 silly CHANGE node_modules/@esbuild/android-x64
+216 silly CHANGE node_modules/@esbuild/android-arm64
+217 silly CHANGE node_modules/@esbuild/android-arm
+218 silly CHANGE node_modules/@esbuild/aix-ppc64
+219 silly CHANGE node_modules/zod
+220 silly CHANGE node_modules/typescript
+221 silly CHANGE node_modules/mongoose
+222 silly CHANGE node_modules/mongodb
+223 silly CHANGE node_modules/lodash
+224 silly CHANGE node_modules/fsevents
+225 verbose cwd C:\Users\yello\Documents\New folder\server
+226 verbose os Windows_NT 10.0.26200
+227 verbose node v24.9.0
+228 verbose npm  v11.6.0
+229 verbose exit 0
+230 info ok
