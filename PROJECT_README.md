@@ -274,3 +274,6 @@ npm start
 ## Project Summary
 
 This project is a complete ecommerce platform with separate customer and admin experiences. The customer side handles browsing, authentication, cart, wishlist, checkout, reward points, and order flow. The admin side handles products, promos, orders, settings, and dashboard management. The backend provides the API layer, database models, authentication integration, file upload support, and payment gateway integration needed to run the platform.
+
+## Update
+Added project documentation improvements.
