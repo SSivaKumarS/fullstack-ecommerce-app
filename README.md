@@ -13,8 +13,8 @@ This project is a full-stack ecommerce application with a React customer storefr
 - Add products to cart and wishlist.
 - Apply promo codes during checkout.
 - Place orders with Razorpay payment integration.
-:) View order success flow after checkout.
-:) Use reward points checkout flow.
+- View order success flow after checkout.
+- Use reward points checkout flow.
 
 ### Admin Features
 
